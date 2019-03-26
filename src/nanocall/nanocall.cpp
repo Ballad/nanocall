@@ -34,7 +34,7 @@ long get_cpu_time_ms()
 #define FLOAT_TYPE float
 #endif
 #ifndef KMER_SIZE
-#define KMER_SIZE 6
+#define KMER_SIZE 4
 #endif
 typedef State_Transitions< FLOAT_TYPE, KMER_SIZE > State_Transitions_Type;
 typedef State_Transition_Parameters< FLOAT_TYPE > State_Transition_Parameters_Type;

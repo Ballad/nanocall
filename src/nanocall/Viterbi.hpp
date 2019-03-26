@@ -12,7 +12,7 @@
 #include "logger.hpp"
 #include "fast5.hpp"
 
-template < typename Float_Type, unsigned Kmer_Size = 6 >
+template < typename Float_Type, unsigned Kmer_Size = 4 >
 class Viterbi
 {
 public:

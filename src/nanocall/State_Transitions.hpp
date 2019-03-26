@@ -60,7 +60,7 @@ struct State_Neighbours
     Float_Type p_rest_to;
 }; // struct State_Neighbours
 
-template < typename Float_Type, unsigned Kmer_Size = 6 >
+template < typename Float_Type, unsigned Kmer_Size = 4 >
 class State_Transitions
 {
 public:

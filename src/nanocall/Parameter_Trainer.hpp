@@ -12,7 +12,7 @@
 #include "logsumset.hpp"
 #include "logger.hpp"
 
-template < typename Float_Type, unsigned Kmer_Size = 6 >
+template < typename Float_Type, unsigned Kmer_Size = 4 >
 struct Parameter_Trainer
 {
     typedef Kmer< Kmer_Size > Kmer_Type;

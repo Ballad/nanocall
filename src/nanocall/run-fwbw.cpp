@@ -16,7 +16,7 @@ using namespace std;
 #define FLOAT_TYPE float
 #endif
 #ifndef KMER_SIZE
-#define KMER_SIZE 6
+#define KMER_SIZE 4
 #endif
 typedef State_Transitions< FLOAT_TYPE, KMER_SIZE > State_Transitions_Type;
 typedef Pore_Model< FLOAT_TYPE, KMER_SIZE > Pore_Model_Type;

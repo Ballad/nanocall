@@ -164,7 +164,7 @@ struct Pore_Model_State
     }
 }; // struct Pore_Model_State
 
-template < typename Float_Type, unsigned Kmer_Size = 6 >
+template < typename Float_Type, unsigned Kmer_Size = 4 >
 class Pore_Model
 {
 public:
